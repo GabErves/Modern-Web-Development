@@ -33,7 +33,7 @@ const eventHandler = () => {
     const updateDomWithDividedNumbers = () =>{
         divide_result.innerHTML = divide(number1.value, number2.value);
     }
-
+    
     const updateDomWithModNumbers = () =>{
         mod_result.innerHTML = modulo(number1.value, number2.value);
     }
